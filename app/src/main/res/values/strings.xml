@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RateApp</string>
+    <string name="getting_location">Getting Location</string>
+    <string name="please_wait">Please wait..</string>
+    <string name="go_to_settings">Go to settings</string>
+
+    <string name="please_allow_location_access">Please \'allow\' RateApp to access this device\'s location. </string>
+    <string name="permissions_denied_dialog_msg">You have declined the location permission. \nRateApp will not function correctly. Please reauthorise.</string>
+    <string name="btn_allow">Allow</string>
+</resources>
