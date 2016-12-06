@@ -44,7 +44,6 @@ public class LocationService extends IntentService {
                 mAppPrefManager.setLatitude(location.getLatitude());
                 mAppPrefManager.setLongitude(location.getLongitude());
                 City city=City.getCityForLocation(location.getLatitude(),location.getLongitude());
-                Log.d("LocationService", city.mCityName);
                mRxBus.postEvent(new CityChangedEvent(city));
             }
         }
